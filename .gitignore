@@ -1,0 +1,51 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+<<<<<<< HEAD
+###
+#PS C:\Projects\ImgProcessor> git rm --cached logs/app.log
+#rm 'logs/app.log'
+#PS C:\Projects\ImgProcessor> git commit -m "Исключить лог-файл из Git-индексации"
+#[main 7d2cb83] Исключить лог-файл из Git-индексации
+#PS C:\Projects\ImgProcessor>
+###
+logs/app.log
+=======
+logs/app.log
+>>>>>>> works003
